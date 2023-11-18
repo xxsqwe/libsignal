@@ -97,7 +97,7 @@ fn main(){
         expected_receiver_chain
     );
 }
-    println!("tests in {} rounds",rounds);
-    println!("{:?} per key generation",time_keygen/rounds);
-    println!("{:?} per x3dh",time_com/rounds);
+    println!("[+] Signal protocol: testing key exchange in {} rounds",rounds);
+    println!("[+] {:?} per key generation",time_keygen/rounds);
+    println!("[+] {:?} per x3dh",time_com/rounds);
 }
